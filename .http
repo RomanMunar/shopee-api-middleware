@@ -1,0 +1,10 @@
+@baseUrl=http://localhost:5000
+
+### Search a product
+GET {{baseUrl}}/shopee/search?locations=Metro+Manila%2CMindanao%2CNorth+Luzon%2CSouth+Luzon%2CVisayas%2C-2&keyword=headphones&by=sales&order=desc
+
+### Get an item
+GET  {{baseUrl}}/shopee/item/get?itemid=2625791160&shopid=168042480
+
+### Get an item's rating
+GET {{baseUrl}}/shopee/item/get_ratings?offset=0&filter=0&type=0&itemid=5544088247&shopid=38592024&limit=10
