@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/test.js"
+    "start": "npm run build && node build/example.js"
   },
   "author": "Roman Munar",
   "license": "ISC",
